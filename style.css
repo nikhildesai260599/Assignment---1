@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+th {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+
+td:first-child {
+    background-color: lightgray;
+}
+
+tbody tr:nth-child(odd) td:first-child {
+    background-color: lightgray;
+}
+
+#home {
+    background-color: pink;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    vertical-align: middle;
+}
